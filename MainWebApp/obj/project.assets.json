@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Артем Оганесян\\source\\repos\\portnov\\MainWebApp\\MainWebApp\\MainWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\MainWebApp.csproj",
       "projectName": "MainWebApp",
-      "projectPath": "C:\\Users\\Артем Оганесян\\source\\repos\\portnov\\MainWebApp\\MainWebApp\\MainWebApp.csproj",
+      "projectPath": "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\MainWebApp.csproj",
       "packagesPath": "C:\\Users\\Артем Оганесян\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Артем Оганесян\\source\\repos\\portnov\\MainWebApp\\MainWebApp\\obj\\",
+      "outputPath": "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

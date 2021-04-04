@@ -64,7 +64,6 @@ C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\MainWebApp.TagHelpers.output.cache
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\MainWebApp.RazorCoreGenerate.cache
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -79,3 +78,4 @@ C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\MainWebApp.genruntimeconfig.cache
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\MainWebApp.csproj.CopyComplete
 C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\Razor\Views\Home\Forum.cshtml.g.cs
+C:\Users\Артем Оганесян\github\pcs-webapp-main\MainWebApp\obj\Debug\net5.0\Razor\Views\Home\Feedback.cshtml.g.cs

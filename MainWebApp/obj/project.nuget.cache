@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fCiOTwfQRDbQlw3apSMSreO+4/iXkHBWsq/sN4BO8lYVtAHofwMkQZPE3ixAafd8p3P/WHLMRGH2HLbGqQXWeQ==",
+  "dgSpecHash": "EBoCDJ1c5xfpGmzd+ODU75HaUerkC2HMUnr9GxZGy+/i9G91Isx3APn3o7wHW+p+tzeotqy7royL4psiGJ0VaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\MainWebApp.csproj",
+  "projectFilePath": "/Users/mons/github/pcs-webapp-main/MainWebApp/MainWebApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Артем Оганесян\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "/Users/mons/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.10.9/microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
   ],
   "logs": []
 }

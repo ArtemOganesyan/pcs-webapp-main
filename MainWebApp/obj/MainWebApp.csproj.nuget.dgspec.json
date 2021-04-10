@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\MainWebApp.csproj": {}
+    "/Users/mons/github/pcs-webapp-main/MainWebApp/MainWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\MainWebApp.csproj": {
+    "/Users/mons/github/pcs-webapp-main/MainWebApp/MainWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\MainWebApp.csproj",
+        "projectUniqueName": "/Users/mons/github/pcs-webapp-main/MainWebApp/MainWebApp.csproj",
         "projectName": "MainWebApp",
-        "projectPath": "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\MainWebApp.csproj",
-        "packagesPath": "C:\\Users\\Артем Оганесян\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Артем Оганесян\\github\\pcs-webapp-main\\MainWebApp\\obj\\",
+        "projectPath": "/Users/mons/github/pcs-webapp-main/MainWebApp/MainWebApp.csproj",
+        "packagesPath": "/Users/mons/.nuget/packages/",
+        "outputPath": "/Users/mons/github/pcs-webapp-main/MainWebApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Артем Оганесян\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/mons/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }

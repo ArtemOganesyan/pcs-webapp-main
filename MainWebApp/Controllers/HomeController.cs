@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -29,13 +30,19 @@ namespace MainWebApp.Controllers
             return View();
         }
 
-        public IActionResult UpdateEndpoints(Endpoints model )
+        public IActionResult UpdateEndpoints(Endpoints model)
         {
             if (model.FeedbackEndpoint == null || model.ForumEndpoint == null)
             {
                 ViewBag.MasterContent = "Master content from: " + LocalAddress();
                 ViewBag.ForumContent = "Forum application url not set";
                 ViewBag.FeedbackContent = "Feedback application url not set";
+                return View("Index");
+            }
+
+            if (model.FeedbackEndpoint == "error" || model.ForumEndpoint == "error")
+            {
+                LogWrite("Hello error from application");
                 return View("Index");
             }
 
@@ -50,11 +57,15 @@ namespace MainWebApp.Controllers
                 ForumContent = client.DownloadString(ForumUrl + "/Home/Forum");
             }
 
+            LogWrite(ForumUrl);
+
             string FeedbackContent = "";
             using (WebClient client = new WebClient())
             {
                 FeedbackContent = client.DownloadString(FeedbackUrl + "/Home/Feedback");
             }
+
+            LogWrite(FeedbackUrl);
 
             ViewBag.ForumContent = ForumContent;
             ViewBag.FeedbackContent = FeedbackContent;
@@ -64,12 +75,14 @@ namespace MainWebApp.Controllers
 
         public IActionResult Forum()
         {
+            LogWrite("Forum content requested");
             ViewBag.IP = LocalAddress();
             return View();
         }
 
         public IActionResult Feedback()
         {
+            LogWrite("Feedback content requested");
             ViewBag.IP = LocalAddress();
             return View();
         }
@@ -90,6 +103,22 @@ namespace MainWebApp.Controllers
                 localIP = endPoint.Address.ToString();
             }
             return localIP;
+        }
+
+        private void LogWrite(string LogMessage)
+        {
+            try
+            {
+                using (StreamWriter writer = System.IO.File.AppendText("/var/log/webapp.log"))
+                {
+                    writer.WriteLine("Web application message: " + LogMessage);
+                }
+
+            }
+            catch (Exception)
+            {
+
+            }
         }
     }
 }

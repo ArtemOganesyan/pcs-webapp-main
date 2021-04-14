@@ -118,3 +118,7 @@ C:/Users/Артем Оганесян/github/pcs-webapp-main/MainWebApp/obj/Debug
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.pdb
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.genruntimeconfig.cache
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.csproj.CopyComplete
+/Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/AWSSDK.Core.dll
+/Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/AWSSDK.Extensions.NETCore.Setup.dll
+/Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/AWSSDK.SimpleSystemsManagement.dll
+/Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.csprojAssemblyReference.cache

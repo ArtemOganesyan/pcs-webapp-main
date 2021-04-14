@@ -69,7 +69,11 @@ namespace MainWebApp.Controllers
 
             ViewBag.ForumContent = ForumContent;
             ViewBag.FeedbackContent = FeedbackContent;
-            ViewBag.EnvironmentVariable = GetEnvVar("MAIN_VAR");
+
+            AwsParameterStoreClient AwsClient = new AwsParameterStoreClient(Amazon.RegionEndpoint.USEast2);
+            var value = AwsClient.GetValueAsync("TestParameter").Result;
+            //string test = GetAwsParameter("TestParameter");
+            ViewBag.SsmParameter = value;
 
             return View("Index");
         }
@@ -122,9 +126,15 @@ namespace MainWebApp.Controllers
             }
         }
 
-        private string GetEnvVar(string VarName)
+        /*
+        private async Task<string> GetAwsParameter(string ParameterName)
         {
-            return Environment.GetEnvironmentVariable(VarName);
+            AwsParameterStoreClient client = new AwsParameterStoreClient(Amazon.RegionEndpoint.USEast2);
+
+            var value = await client.GetValueAsync(ParameterName);
+
+            return value;
         }
+        */
     }
 }

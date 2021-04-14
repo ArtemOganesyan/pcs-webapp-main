@@ -69,6 +69,7 @@ namespace MainWebApp.Controllers
 
             ViewBag.ForumContent = ForumContent;
             ViewBag.FeedbackContent = FeedbackContent;
+            ViewBag.EnvironmentVariable = GetEnvVar("MAIN_VAR");
 
             return View("Index");
         }
@@ -119,6 +120,11 @@ namespace MainWebApp.Controllers
             {
 
             }
+        }
+
+        private string GetEnvVar(string VarName)
+        {
+            return Environment.GetEnvironmentVariable(VarName);
         }
     }
 }

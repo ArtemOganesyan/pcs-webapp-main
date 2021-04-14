@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EBoCDJ1c5xfpGmzd+ODU75HaUerkC2HMUnr9GxZGy+/i9G91Isx3APn3o7wHW+p+tzeotqy7royL4psiGJ0VaQ==",
+  "dgSpecHash": "jUlpXxp390Pm5ZVb80Kyl0i6kiwGnISH9C1olNvaOHT8fhkxA1gulSgif9yZZOk+0C84YAp+awdJuzu3AayTyg==",
   "success": true,
   "projectFilePath": "/Users/mons/github/pcs-webapp-main/MainWebApp/MainWebApp.csproj",
   "expectedPackageFiles": [
+    "/Users/mons/.nuget/packages/awssdk.core/3.7.0.12/awssdk.core.3.7.0.12.nupkg.sha512",
     "/Users/mons/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.10.9/microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
   ],
   "logs": []

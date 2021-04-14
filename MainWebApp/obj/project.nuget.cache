@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "V8WbaN1z0VlNuZ8p+k7ScH/s0uHB5BvB3W5iVd43BjuOAuuL8N2/q/Af0SqGYpwmZ8ak1iqJiKEh3snR22FrmA==",
+  "dgSpecHash": "EBoCDJ1c5xfpGmzd+ODU75HaUerkC2HMUnr9GxZGy+/i9G91Isx3APn3o7wHW+p+tzeotqy7royL4psiGJ0VaQ==",
   "success": true,
   "projectFilePath": "/Users/mons/github/pcs-webapp-main/MainWebApp/MainWebApp.csproj",
   "expectedPackageFiles": [
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
-    "/Users/mons/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.10.9/microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/Users/mons/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.10.9/microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
   ],
   "logs": []
 }

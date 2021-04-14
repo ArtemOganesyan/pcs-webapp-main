@@ -79,7 +79,6 @@ C:/Users/Артем Оганесян/github/pcs-webapp-main/MainWebApp/obj/Debug
 C:/Users/Артем Оганесян/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.csproj.CopyComplete
 C:/Users/Артем Оганесян/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/Razor/Views/Home/Forum.cshtml.g.cs
 C:/Users/Артем Оганесян/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/Razor/Views/Home/Feedback.cshtml.g.cs
-/Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.pdb
 /Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/appsettings.Development.json
 /Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/appsettings.json
 /Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/MainWebApp.deps.json
@@ -90,7 +89,6 @@ C:/Users/Артем Оганесян/github/pcs-webapp-main/MainWebApp/obj/Debug
 /Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/MainWebApp.pdb
 /Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/MainWebApp.Views.dll
 /Users/mons/github/pcs-webapp-main/MainWebApp/bin/Debug/net5.0/MainWebApp.Views.pdb
-/Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.csprojAssemblyReference.cache
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.AssemblyInfoInputs.cache
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.AssemblyInfo.cs
@@ -117,5 +115,6 @@ C:/Users/Артем Оганесян/github/pcs-webapp-main/MainWebApp/obj/Debug
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.Views.pdb
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.dll
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/ref/MainWebApp.dll
+/Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.pdb
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.genruntimeconfig.cache
 /Users/mons/github/pcs-webapp-main/MainWebApp/obj/Debug/net5.0/MainWebApp.csproj.CopyComplete

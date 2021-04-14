@@ -3,18 +3,16 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="MainWebApp/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="MainWebApp/Controllers/HomeController.cs" Line="14" Column="33" />
-      <File FileName="MainWebApp/Views/Shared/_Layout.cshtml" Line="37" Column="39" />
+      <File FileName="MainWebApp/Views/Shared/_Layout.cshtml" Line="46" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MainWebApp" expanded="True">
-            <Node name="MainWebApp" expanded="True">
+            <Node name="MainWebApp" expanded="True" selected="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

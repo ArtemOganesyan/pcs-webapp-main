@@ -70,10 +70,19 @@ namespace MainWebApp.Controllers
             ViewBag.ForumContent = ForumContent;
             ViewBag.FeedbackContent = FeedbackContent;
 
-            AwsParameterStoreClient AwsClient = new AwsParameterStoreClient(Amazon.RegionEndpoint.USEast2);
-            var value = AwsClient.GetValueAsync("TestParameter").Result;
+            try
+            {
+                AwsParameterStoreClient AwsClient = new AwsParameterStoreClient(Amazon.RegionEndpoint.USEast2);
+                var value = AwsClient.GetValueAsync("TestParameter").Result;
+                ViewBag.SsmParameter = value;
+            }
+            catch (Exception ex)
+            {
+                LogWrite(ex.Message);
+            }
+
             //string test = GetAwsParameter("TestParameter");
-            ViewBag.SsmParameter = value;
+
 
             return View("Index");
         }
